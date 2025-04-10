@@ -571,6 +571,7 @@ html {
     object-fit: cover;
     border-radius: 0%;
     z-index: 50;
+    overflow: hidden;
     
 }
 
@@ -580,8 +581,8 @@ html {
     transform: scale(2);
     transition: all 0.3s ease-in-out;
     z-index: 51;
-    
     object-fit: scale-down;
+    overflow: hidden;
     
 }
 
